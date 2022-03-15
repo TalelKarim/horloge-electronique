@@ -44,9 +44,9 @@
 
 .horloge-body div{
     font-family: 'technology';
-    font-size: 80px;
+    font-size: 90px;
     color: #53EF10;
-   
+    padding-right: 10px;
 }
 
 .numbers{
@@ -55,4 +55,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: translate(5px);
 }
