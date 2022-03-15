@@ -1,0 +1,58 @@
+@font-face {
+    font-family:'Loopy' ;
+    src: url(fonts/loopy.regular.ttf);
+}
+
+@font-face {
+    font-family: 'technology';
+    src: url(fonts/Technology.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.main-content{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f0f0;
+    box-shadow: 16px 16px 10px #d7d7d7 ;
+    border-radius: 20px;
+    height: 200px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.horloge-body{
+    background:  linear-gradient(black,  #1E1F29);
+    height: 150px;
+    width: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.horloge-body div{
+    font-family: 'technology';
+    font-size: 80px;
+    color: #53EF10;
+   
+}
+
+.numbers{
+    height: 140px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
